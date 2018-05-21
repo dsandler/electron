@@ -104,9 +104,6 @@ const char kZoomFactor[] = "zoomFactor";
 // Script that will be loaded by guest WebContents before other scripts.
 const char kPreloadScript[] = "preload";
 
-// Like --preload, but the passed argument is an URL.
-const char kPreloadURL[] = "preloadURL";
-
 // Enable the node integration.
 const char kNodeIntegration[] = "nodeIntegration";
 
@@ -196,7 +193,6 @@ const char kContextId[] = "context-id";
 // The command line switch versions of the options.
 const char kBackgroundColor[] = "background-color";
 const char kPreloadScript[] = "preload";
-const char kPreloadURL[] = "preload-url";
 const char kPreloadScripts[] = "preload-scripts";
 const char kNodeIntegration[] = "node-integration";
 const char kContextIsolation[] = "context-isolation";
